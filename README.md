@@ -5,7 +5,7 @@
 COVID-19 data is used in many types of research up to now. Our COVID-19 data source is the EU Open Data portal. It is combined with the Google mobility data and the World Bank classification data based on Gross Domestic Product (GDP). The goal of this project is classifying countries based on their GDP classes while exploring the societal impacts of the COVID-19 with supervised machine learning algorithms such as K-Nearest Neighbor, Decision Tree, Logistic Regression, Support Vector Machine, and Gaussian Naive Bayes and then developing an interactive dashboard for the most accurate algorithm. The data is re-arranged; the mobility data and COVID-19 data are merged based on countries. The GDP data is used as the country label and five different algorithms are performed on the training and test dataset, which is split as 0.8 and 0.2 of the whole dataset, respectively. The results show that the best accuracy is belonging to the K-Nearest Neighbor (KNN) algorithm, which is 0.84. The dashboard is developed depend on KNN algorithm and it enables to observe different results by changing indicators and parameters used in the figures. It has six different graphs showing in different tabs. The first tab includes two figures for data exploration, and the second tab is for displaying the selection of K - value importance with two graphs. Furthermore, the third and fourth tabs include a KNN graph and two confusion matrices.
 
 
-
+## [__Dashboard Link__](https://mybinder.org/v2/gh/fcozer88/Stat564/master?urlpath=%2Fvoila%2Frender%2Fdashboard.ipynb)
 
 
 ## References
